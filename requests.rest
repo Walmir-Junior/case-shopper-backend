@@ -1,0 +1,28 @@
+//Para requisições com body:
+//Content-Type: application/json
+
+//Para requisições com headers
+//Authorization: "token
+
+
+###
+GET http://localhost:3003/shopper/products
+
+###
+POST https://market-shopper-api.herokuapp.com/shopper/requests
+Content-Type: application/json
+
+{
+    "custumerName": "wal a",
+    "dueDate": "2022-12-15",
+    "purchasesList": [
+        {
+            "productId": 16,
+            "productQty": 1
+        },
+        {
+            "productId": 18,
+            "productQty": 1
+        }
+    ]
+}
