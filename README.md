@@ -1,5 +1,7 @@
 # case-shopper-backend
 
+## Link da api deploy no heroku : [link](https://market-shopper-api.herokuapp.com/)
+
 ## Descrição
 
   Case para o processo seletivo da shopper
@@ -7,7 +9,7 @@
 
 ## Endpoints
 
-*### getProducts
+### getProducts
 #### metodo _GET_
 
 Retorna uma lista de produdos
@@ -31,7 +33,7 @@ _Output_
 ```
 
 
-*### createRequest
+ ### createRequest
  #### metodo _POST_ 
  
  Cria um pedido, feito por um usuario
